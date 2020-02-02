@@ -1,37 +1,18 @@
-## Welcome to GitHub Pages
+# Projectile modelling
+In this project, I used **Python** to model the tragectory of a projectile.
 
-You can use the [editor on GitHub](https://github.com/mrbrianevans/projectile-modeling/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+I used the SUVAT system of equations to calculate the projectiles position at a set time interval. 
+The accuracy of the tradgectory depends on the time interval used to calculate its position.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mrbrianevans/projectile-modeling/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<p>
+  This is a particle fired at an initial velocity of 30ms<sup>-1</sup> at every angle from 0&deg; to 90&deg; with intervals of 5&deg;
+  <br><img src="projectileALLa30v001s.png">
+  
+</p>
+<p>
+  To run your own simulations, you can download the source code in Python.
+  I have included multiple functions, for modeling and testing differenct projection velocities and angles. 
+</p>
+<p>
+  All the visuals are generated using matplotlib.pyplot
+</p>
