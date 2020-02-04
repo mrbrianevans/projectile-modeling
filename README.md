@@ -1,6 +1,8 @@
 # Projectile modelling
 In this project, I used **Python** to model the tragectory of a projectile.
 
+[Source code](https://github.com/mrbrianevans/projectile-modeling/blob/master/projectile_modelling.py)
+
 I used the SUVAT system of equations to calculate the projectiles position at a set time interval. 
 The accuracy of the tradgectory depends on the time interval used to calculate its position.
 
